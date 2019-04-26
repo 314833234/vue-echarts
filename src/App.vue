@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <e-chart></e-chart>
+    <hot-table></hot-table>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+/*import ECharts from 'vue-echarts'
+import 'echarts/lib/chart/bar'
+import 'echarts/lib/component/tooltip'*/
+import EChart from './components/EChart.vue'
+//import HotTable from './components/HotTable.vue'
+
+
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    EChart,
+    //HotTable
   }
 }
 </script>
